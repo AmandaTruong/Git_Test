@@ -1,1 +1,283 @@
 Hello Git!
+
+
+
+
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$ git branch -a
+fatal: Not a git repository (or any of the parent directories): .git
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$ git starus
+git: 'starus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$
+
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+IntelGraphicsProfiles
+Links
+Lokala\ inställningar
+Mallar
+MicrosoftEdgeBackups
+Mina\ dokument
+Music
+Nätverket
+New\ folder
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{ed3eae81-faa5-11e7-894d-80ce629cd754}.TM.blf
+NTUSER.DAT{ed3eae81-faa5-11e7-894d-80ce629cd754}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{ed3eae81-faa5-11e7-894d-80ce629cd754}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+OneDrive
+OneDrive\ -\ Arcam\ AB
+Pictures
+Programdata
+Recent
+Saved\ Games
+Searches
+SendTo
+Skrivare
+Start-meny
+Videos
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$ cd ../c/
+bash: cd: ../c/: No such file or directory
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$ cd C:/
+
+amanda.truong@ArcamPC-323 MINGW64 /c
+$ cd development//ebmcontrol/
+
+amanda.truong@ArcamPC-323 MINGW64 /c/development/ebmcontrol (development_x64)
+$ git branch
+  Git_Test
+  a
+  bugfix/PD-2209-the-row-does-not-move-up-or-down-amanda
+* development_x64
+  feature/PD-2137-crash-when-selecting-items-to-display_nor
+
+amanda.truong@ArcamPC-323 MINGW64 /c/development/ebmcontrol (development_x64)
+$ git branch -Git_Test
+error: unknown switch `G'
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    --list                list branch names
+    -l, --create-reflog   create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+
+amanda.truong@ArcamPC-323 MINGW64 /c/development/ebmcontrol (development_x64)
+$ ^C
+
+amanda.truong@ArcamPC-323 MINGW64 /c/development/ebmcontrol (development_x64)
+$ git status
+On branch development_x64
+Your branch is up to date with 'origin/development_x64'.
+
+nothing to commit, working tree clean
+
+amanda.truong@ArcamPC-323 MINGW64 /c/development/ebmcontrol (development_x64)
+$ cat id.rsa.pub
+cat: id.rsa.pub: No such file or directory
+
+amanda.truong@ArcamPC-323 MINGW64 /c/development/ebmcontrol (development_x64)
+$ cd
+
+amanda.truong@ArcamPC-323 MINGW64 ~
+$ cd c:/
+
+amanda.truong@ArcamPC-323 MINGW64 /c
+$ cd Users/amanda.truong/Documents/
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents
+$ mkdir Git_test
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents
+$ cd Git_test
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ git clone https://github.com/AmandaTruong/Git_Test.git
+Cloning into 'Git_Test'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ ls
+Git_Test/
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ ^C
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ cd ..
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents
+$ ls
+'Anpassade Office-mallar'/  'Mina bilder'@
+'Arcam SSLVPN.PDF'          'Mina videoklipp'@
+ AT/                        'My Received Files'/
+'Custom Office Templates'/  'OM(Operation Manual)-710353-en-GB-01.pdf'
+ desktop.ini                 Outlook-filer/
+ EBMＡｒｃｈｉ.png           PD-2209.txt
+'EMB Architecture.png'       ShareX/
+ FeedbackHub/                VCACLAYERS14L00249b29a156290000
+ Git_test/                  'Visual Studio 2015'/
+'Min musik'@
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents
+$ cd Git_test/
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ ls
+Git_Test/
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test
+$ cd Git_Test/
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ ls
+Git_Textfile_Test.txt  README.md
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Git_Textfile_Test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ git add .
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Git_Textfile_Test.txt
+
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ git commit -m "Testing"
+[master 721d4f7] Testing
+ Committer: Amanda Truong <amanda.truong@arcam.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Git_Textfile_Test.txt
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 98.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/AmandaTruong/Git_Test.git
+   0b8ebbf..721d4f7  master -> master
+
+amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
+$

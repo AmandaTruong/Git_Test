@@ -1,4 +1,4 @@
-Hello Git!
+﻿Hello Git!
 
 
 
@@ -281,3 +281,8 @@ To https://github.com/AmandaTruong/Git_Test.git
 
 amanda.truong@ArcamPC-323 MINGW64 ~/Documents/Git_test/Git_Test (master)
 $
+
+...........................
+
+
+Updatede 2
